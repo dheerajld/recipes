@@ -13,7 +13,7 @@ try {
                 sh 'react-native link'
                 sh 'export JAVA_HOME=C:/Program Files/Java/jdk1.8.0_221'
                 sh 'export JRE_HOME=C:/Program Files/Java/jdk1.8.0_221/jre'
-                sh 'export PATH=$PATH:C:/Program Files/Java/jdk1.8.0_221/bin:/Program Files/Java/jdk1.8.0_221/jre'
+                sh 'export PATH=$PATH:C:/Program Files/Java/jdk1.8.0_221/bin:/Program Files/Java/jdk1.8.0_221/jre/bin'
                 sh 'echo $JAVA_HOME'
         }
         
